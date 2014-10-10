@@ -20,7 +20,9 @@
 /* VISUAL FEEDBACK */
 
 /* basic */
-  body  { background: #e1e8f1; margin: 0; }
+  body  { background: #fff; margin: 0; 
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px; }
  
 /* make HTML blocs visible */
   p,
@@ -34,18 +36,19 @@
   ol,
   table,
   blockquote,
-  pre           { background: #FFFFFF no-repeat 2px 2px;
+  pre           { background: transparent no-repeat 2px 2px;
                   padding:8px 5px 5px;
-                  margin:10px; }
-  td            { background: #F0F4F8; height: 1.6em; }
-  th            { background: #ffffcc; }
+                  margin:0 0 1px 0;}
+  td            { height: 1.6em; }
+  th            {  }
   ul,
-  ol            { border-left:20px solid #B9C4D0; padding:0px 5px; }
+  ol            { padding:0px 5px 0px 20px; }
   caption       { background: #E4E4B0; padding: 5px; font-weight: bold; }
   table         { font-size: 12px; width: 500px; }
   td            { width: 25%; }
   blockquote    { margin-left: 30px; }
   pre           { background-color:transparent; border: 1px solid white; }
+  p             { border: 1px dotted #ccc; }
  
 /* labels */
   p         { background-image: url(lbl-p.png); }

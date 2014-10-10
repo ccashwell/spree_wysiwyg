@@ -1,4 +1,4 @@
-WYMeditor.SKINS['default'] = {
+WYMeditor.SKINS['spree'] = {
 
     init: function(wym) {
 
