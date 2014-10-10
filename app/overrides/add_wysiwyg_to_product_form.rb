@@ -3,11 +3,13 @@ Deface::Override.new(:virtual_path => "spree/admin/products/_form",
                      :insert_after => "[data-hook='admin_product_form_fields']") do
                        "<script>
                           $('#product_description').wymeditor({
-                              iframeBasePath: '../wymeditor/iframe/pretty/',
+                              iframeBasePath: '/assets/admin/wymeditor/iframe/default/',
                               postInit: function(wym) {},
                               containersHtml: '',
                               classesHtml: '',
                               logoHtml: '',
+                              'updateEvent':'click',
+                              'updateSelector':'[type=submit]',
                               toolsItems: [
                                 {'name': 'Bold', 'title': 'Strong', 'css': 'wym_tools_strong'}, 
                                 {'name': 'Italic', 'title': 'Emphasis', 'css': 'wym_tools_emphasis'},
