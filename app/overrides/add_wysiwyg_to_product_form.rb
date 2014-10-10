@@ -2,7 +2,6 @@ Deface::Override.new(:virtual_path => "spree/admin/products/_form",
                      :name => "add_wysiwyg_to_product_form",
                      :insert_after => "[data-hook='admin_product_form_fields']") do
                        "<script>
-                          var locale = 
                           $('#product_description').wymeditor({
                               iframeBasePath: '/assets/admin/wymeditor/iframe/default/',
                               postInit: function(wym) {},
