@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wysiwyg'
-  s.version     = '2.3'
+  s.version     = '3.1'
   s.summary     = 'Spree extension for adding wysiwyg editor in product textarea.'
   s.description = 'Spree extension for adding wysiwyg editor in product textarea.'
   s.required_ruby_version = '>= 1.8.7'
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 2.3.3'
+  s.add_dependency 'spree_core', '~> 3.1.0.beta'
 end
