@@ -1,1 +1,1 @@
-//= require admin/wymeditor/jquery.wymeditor.min
+//= require admin/wymeditor/jquery.wymeditor
