@@ -1,20 +1,16 @@
-# Spree WYSIWYG
+# Spree WYSIWYM Product Description Editor
 
-This extension adds a WYSIWYG editor (<a href="http://www.wymeditor.org/">WYMeditor</a>) to the products description textarea.
-
-<p align="center">
-  <img src="https://raw.github.com/norekinc/spree_wysiwyg/2-3-stable/screenshots/screenshot.png" alt="spree_wysiwyg screenshot" title="spree_wysiwyg screenshot" width="721" height="449" />
-</p>
+This extension adds a WYSIWYM editor to the products description textarea.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'spree_wysiwyg'
+    gem 'spree_wysiwym'
 
 Or add this line to your application's Gemfile:
 
-    gem 'spree_wysiwyg', :git => 'https://github.com/fernandoaleman/spree_wysiwyg', :branch => '2-3-stable'
+    gem 'spree_wysiwym', :git => 'https://github.com/fernandoaleman/spree_wysiwym', :branch => '2-3-stable'
 
 And then execute:
 
@@ -22,17 +18,17 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install spree_wysiwyg
+    $ gem install spree_wysiwym
 
 ## Usage
 
 Once installed, run:
 
-    rails generate spree_wysiwyg:install
+    rails generate spree_wysiwym:install
 
 Or you may need to run:
 
-    bundle exec rails generate spree_wysiwyg:install
+    bundle exec rails generate spree_wysiwym:install
 
 ### Internationalization / i18n
 
@@ -47,4 +43,4 @@ Use <a href="https://github.com/spree/spree_i18n">spree_i18n</a> for translation
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Copyright (c) 2013 spree_wysiwyg, released under the New BSD License
+Copyright (c) 2013 spree_wysiwym, released under the New BSD License
